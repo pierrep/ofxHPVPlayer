@@ -383,6 +383,11 @@ std::string ofxHPVPlayer::getFileSummary()
     return m_hpv_player->getFileSummary();
 }
 
+std::string ofxHPVPlayer::getFilename()
+{
+    return m_hpv_player->getFilename();
+}
+
 ofPixelFormat ofxHPVPlayer::getPixelFormat() const
 {
     return OF_PIXELS_RGBA;
